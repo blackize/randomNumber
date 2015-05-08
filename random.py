@@ -1,12 +1,12 @@
 #!/usr/bin/python
-from random import randint
+import random
 
-print "Lucky Numbers! 5 numbers will be generated."
+print "Lucky Numbers! 10 numbers will be generated."
 print "If one of them is a '5', you lose!"
 
 count = 0
-while count < 5:
-    num = random.randint(1, 6)
+while count < 10:
+    num = random.randint(1, 11)
     print num
     if num == 5:
         print "Sorry, you lose!"
